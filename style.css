@@ -1,0 +1,142 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F0EBF8;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5{
+    color: #333;
+}  
+
+p, label{
+    color: #444;
+}
+
+input{
+    border: 1px solid transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0px;
+}
+input[type=text], input[type=number], input[type=date], input[type=file]{
+    width: 400px;
+}
+textarea{
+    padding: 10px 5px;
+    width: 400px;
+}
+li{
+    padding: 8px 0px;
+}
+
+/*cabeçalho*/
+
+.main-header{
+    text-align: center;
+    height: 160px;
+    padding: 20px;
+    background-color: #673ab7;
+    align-items: center;
+}
+.h3header{
+    position: relative;
+    font-size: 30px;
+    height: 100px;
+    width: 400px;
+    color: white;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.61);
+    top: -30px;
+}
+
+/*cabeçalho do formulário*/
+
+.header-form{
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+
+.header-cadastro{
+    color: #673ab7;
+    border-bottom: 2px solid #673ab7;
+    width: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    line-height: 45px;
+    height: 45px;
+}
+
+/*container do formulario*/
+
+.form{
+    background-color: white;
+    width: 60%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: -62px;
+
+}
+
+
+/*corpo formulário*/
+
+.form-body{
+    padding: 10px 30px 30px 30px;
+}
+
+.header-form{
+    margin: 0px;
+    padding: 0px;
+}
+
+.required-field{
+    color: #d80835;
+}
+
+.box-input{
+    margin-bottom: 30px;
+}
+
+#button{
+    margin-top: 30px;
+}
+
+.block{
+    display: block;
+}
+
+.optional-box{
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.optional-list, li{
+    padding-left: 0;
+    list-style: none;
+}
+
+.button-submit{
+    background-color: #673ab7;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.button-submit:hover{
+    background-color: white;
+    color: #673ab7;
+    border: 2px solid #673ab7;
+}
+
+
